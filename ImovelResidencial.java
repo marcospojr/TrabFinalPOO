@@ -14,7 +14,7 @@ public class ImovelResidencial extends Imovel{
     	
     }
 
-    public ImovelResidencial(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereço endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, int qntdQuartos, int qntdSuites, int qntdSalasEstar, int qntdSalasJantar, int vagasGaragem, boolean armarioEmbutido, String descrição) {
+    public ImovelResidencial(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereco endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, int qntdQuartos, int qntdSuites, int qntdSalasEstar, int qntdSalasJantar, int vagasGaragem, boolean armarioEmbutido, String descrição) {
         super(area, dataConstrucao, situacaoImovel, valorVenda, valorLocacao, valorRealVenda, valorRealLocacao, valorComissao, dataAnuncio, endereco, clienteProprietario, registroTransacao);
         this.qntdQuartos = qntdQuartos;
         this.qntdSuites = qntdSuites;

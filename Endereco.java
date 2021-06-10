@@ -1,4 +1,4 @@
-public class Endereço {
+public class Endereco {
 
     private String rua;
     private int numero;
@@ -7,7 +7,7 @@ public class Endereço {
     private String bairro;
     private String cidade;
 
-    public Endereço(String rua, int numero, String complemento, String cep, String bairro, String cidade) {
+    public Endereco(String rua, int numero, String complemento, String cep, String bairro, String cidade) {
         this.rua = rua;
         this.numero = numero;
         this.complemento = complemento;

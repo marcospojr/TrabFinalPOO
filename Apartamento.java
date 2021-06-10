@@ -6,7 +6,7 @@ public class Apartamento extends ImovelResidencial{
     private double valorCondominio;
     private Boolean possuiPortaria24h;
 
-    public Apartamento(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereço endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, int qntdQuartos, int qntdSuites, int qntdSalasEstar, int qntdSalasJantar, int vagasGaragem, boolean armarioEmbutido, String descrição, int andar, double valorCondominio, Boolean possuiPortaria24h) {
+    public Apartamento(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereco endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, int qntdQuartos, int qntdSuites, int qntdSalasEstar, int qntdSalasJantar, int vagasGaragem, boolean armarioEmbutido, String descrição, int andar, double valorCondominio, Boolean possuiPortaria24h) {
         super(area, dataConstrucao, situacaoImovel, valorVenda, valorLocacao, valorRealVenda, valorRealLocacao, valorComissao, dataAnuncio, endereco, clienteProprietario, registroTransacao, qntdQuartos, qntdSuites, qntdSalasEstar, qntdSalasJantar, vagasGaragem, armarioEmbutido, descrição);
         this.andar = andar;
         this.valorCondominio = valorCondominio;

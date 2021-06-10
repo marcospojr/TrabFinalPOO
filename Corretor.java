@@ -6,7 +6,7 @@ public class Corretor extends Funcionario{
     private boolean possuiCurso;
     private double salarioComComissao;
 
-    public Corretor(String cpf, String nome, Endereço endereço, String telefone, String telefoneContato, String telefoneCelular, Date dataIngresso, String cargo, double salarioBase, String usuario, String senha, Date dataInicioTrabalhaoCorretor, boolean possuiCurso, double salarioComComissao) {
+    public Corretor(String cpf, String nome, Endereco endereço, String telefone, String telefoneContato, String telefoneCelular, Date dataIngresso, String cargo, double salarioBase, String usuario, String senha, Date dataInicioTrabalhaoCorretor, boolean possuiCurso, double salarioComComissao) {
         super(cpf, nome, endereço, telefone, telefoneContato, telefoneCelular, dataIngresso, cargo, salarioBase, usuario, senha);
         this.dataInicioTrabalhaoCorretor = dataInicioTrabalhaoCorretor;
         this.possuiCurso = possuiCurso;

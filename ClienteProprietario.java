@@ -5,7 +5,7 @@ public class ClienteProprietario extends Cliente{
 
     private Date dataPrimeiroImovel;
 
-    public ClienteProprietario(String cpf, String nome, Endereço endereço, ArrayList<String> telefonesContato, String email, String sexo, String estadoCivil, String profissao, Date dataPrimeiroImovel) {
+    public ClienteProprietario(String cpf, String nome, Endereco endereço, ArrayList<String> telefonesContato, String email, String sexo, String estadoCivil, String profissao, Date dataPrimeiroImovel) {
         super(cpf, nome, endereço, telefonesContato, email, sexo, estadoCivil, profissao);
         this.dataPrimeiroImovel = dataPrimeiroImovel;
     }

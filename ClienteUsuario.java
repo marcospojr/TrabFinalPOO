@@ -5,7 +5,7 @@ public class ClienteUsuario extends Cliente{
     private String nomeAvalista;
     private String cpfAvalista;
 
-    public ClienteUsuario(String cpf, String nome, Endereço endereço, ArrayList<String> telefonesContato, String email, String sexo, String estadoCivil, String profissao, String nomeAvalista, String cpfAvalista) {
+    public ClienteUsuario(String cpf, String nome, Endereco endereço, ArrayList<String> telefonesContato, String email, String sexo, String estadoCivil, String profissao, String nomeAvalista, String cpfAvalista) {
         super(cpf, nome, endereço, telefonesContato, email, sexo, estadoCivil, profissao);
         this.nomeAvalista = nomeAvalista;
         this.cpfAvalista = cpfAvalista;

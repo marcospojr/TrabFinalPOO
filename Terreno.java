@@ -7,7 +7,7 @@ public class Terreno extends Imovel{
     private Boolean possuiAclive;
     private Boolean possuiDeclive;
 
-    public Terreno(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereço endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, double largura, double comprimento, Boolean possuiAclive, Boolean possuiDeclive) {
+    public Terreno(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereco endereco, ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao, double largura, double comprimento, Boolean possuiAclive, Boolean possuiDeclive) {
         super(area, dataConstrucao, situacaoImovel, valorVenda, valorLocacao, valorRealVenda, valorRealLocacao, valorComissao, dataAnuncio, endereco, clienteProprietario, registroTransacao);
         this.largura = largura;
         this.comprimento = comprimento;

@@ -2,10 +2,9 @@ public class Pessoa {
 
     private String cpf;
     private String nome;
-    private Endereço endereço;
-    private ValidaCPF validaCPF;
+    private Endereco endereço;
 
-    public Pessoa(String cpf, String nome, Endereço endereço) {
+    public Pessoa(String cpf, String nome, Endereco endereço) {
         this.cpf = cpf;
         this.nome = nome;
         this.endereço = endereço;
@@ -32,11 +31,11 @@ public class Pessoa {
             return false;
         }    }
 
-    public Endereço getEndereço() {
+    public Endereco getEndereço() {
         return endereço;
     }
 
-    public void setEndereço(Endereço endereço) {
+    public void setEndereço(Endereco endereço) {
         this.endereço = endereço;
     }
 }

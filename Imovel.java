@@ -10,7 +10,7 @@ public abstract class Imovel {
     private double valorRealLocacao;
     private double valorComissao;
     private Date dataAnuncio;
-    private Endereço endereco;
+    private Endereco endereco;
     private ClienteProprietario clienteProprietario;
     private RegistroTransacao registroTransacao;
     
@@ -19,7 +19,7 @@ public abstract class Imovel {
     }
 
     public Imovel(double area, Date dataConstrucao, SituacaoImovel situacaoImovel, double valorVenda, double valorLocacao, 
-    		double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereço endereco, 
+    		double valorRealVenda, double valorRealLocacao, double valorComissao, Date dataAnuncio, Endereco endereco, 
     		ClienteProprietario clienteProprietario, RegistroTransacao registroTransacao) {
         this.area = area;
         this.dataConstrucao = dataConstrucao;

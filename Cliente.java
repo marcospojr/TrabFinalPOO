@@ -8,7 +8,7 @@ public class Cliente extends Pessoa{
     private String estadoCivil;
     private String profissao;
 
-    public Cliente(String cpf, String nome, Endereço endereço, ArrayList<String> telefonesContato, 
+    public Cliente(String cpf, String nome, Endereco endereço, ArrayList<String> telefonesContato, 
     		String email, String sexo, String estadoCivil, String profissao) {
         super(cpf, nome, endereço);
         this.telefonesContato = telefonesContato;
